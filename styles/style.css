@@ -5,4 +5,83 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 870px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ========================
+    Header Style
+==================================*/
+
+.header_area {
+    background: #562EFF;
+    padding: 10px 0;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header_logo a img {
+    width: 45px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.header_logo a span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu ul {
+    list-style: none;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.header_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 55px;
+    transition: .5s;
+}
+
+.header_menu ul li a:hover {
+    color: rgba(255,255,255,.6)
+}
+
+.profile {
+    margin-left: 15px;
 }
